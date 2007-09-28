@@ -1,4 +1,4 @@
-LWP-ConnCache-Resolving version 0.01
+LWP-ConnCache-Resolving version 0.02
 ====================================
 
 This module can be used to add resolution to standard LWP::ConnCache.
