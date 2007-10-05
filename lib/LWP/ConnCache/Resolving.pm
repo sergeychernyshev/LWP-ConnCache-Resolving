@@ -1,5 +1,7 @@
 package LWP::ConnCache::Resolving;
 
+# Version: $Id$
+
 use strict;
 use warnings;
 
@@ -7,7 +9,7 @@ use Carp;
 
 use base 'LWP::ConnCache';
 
-our $VERSION = '0.02';
+$VERSION = sprintf("1.%d", q$Rev$ =~ /(\d+)/);
 
 sub new {
 	my $class = shift;
